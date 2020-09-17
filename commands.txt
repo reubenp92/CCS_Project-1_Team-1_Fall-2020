@@ -1,0 +1,40 @@
+#Checout New Branch and Update Personal Info in Group File
+
+
+Switched to a new branch 'reuben_branch'
+(base) MacBook-Pro-7:GitHub-Collaboration-Practice Reubenperez$ pwd
+/Users/Reubenperez/documents/github/computational-social-science-training-program-master/Computational-Social-Science-Projects/GitHub-Collaboration-Practice
+(base) MacBook-Pro-7:GitHub-Collaboration-Practice Reubenperez$ git checkout master
+M	Group_File.txt
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+(base) MacBook-Pro-7:GitHub-Collaboration-Practice Reubenperez$ git checkout reuben_branch
+M	Group_File.txt
+Switched to branch 'reuben_branch'
+(base) MacBook-Pro-7:GitHub-Collaboration-Practice Reubenperez$ vim Group_File.txt
+(base) MacBook-Pro-7:GitHub-Collaboration-Practice Reubenperez$ vim commands.txt
+(base) MacBook-Pro-7:GitHub-Collaboration-Practice Reubenperez$ git add Group_File.txt
+(base) MacBook-Pro-7:GitHub-Collaboration-Practice Reubenperez$ git commit -m "updated my personal info"
+[reuben_branch 69ed7d3] updated my personal info
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+(base) MacBook-Pro-7:GitHub-Collaboration-Practice Reubenperez$ git push
+fatal: The current branch reuben_branch has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin reuben_branch
+
+(base) MacBook-Pro-7:GitHub-Collaboration-Practice Reubenperez$ git push -u origin reuben_branch
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 432 bytes | 432.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create a pull request for 'reuben_branch' on GitHub by visiting:
+remote:      https://github.com/reubenp92/GitHub-Collaboration-Practice/pull/new/reuben_branch
+remote: 
+To https://github.com/reubenp92/GitHub-Collaboration-Practice.git
+ * [new branch]      reuben_branch -> reuben_branch
+Branch 'reuben_branch' set up to track remote branch 'reuben_branch' from 'origin'.
+(base) MacBook-Pro-7:GitHub-Collaboration-Practice Reubenperez$ 
