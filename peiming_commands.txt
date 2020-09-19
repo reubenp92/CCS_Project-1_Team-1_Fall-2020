@@ -1,0 +1,7 @@
+git clone https://github.com/reubenp92/GitHub-Collaboration-Practice/branches
+cd ./GitHub-Collaboration-Practice/
+git checkout -b peiming
+git add Group_File.txt
+git add peiming_commands.txt
+git commit -m 'updates by Pei-Ming'
+git push origin peiming
