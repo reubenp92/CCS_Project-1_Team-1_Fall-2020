@@ -1,0 +1,10 @@
+git checkout "https://github.com/reubenp92/GitHub-Collaboration-Practice"
+cd GitHub-Collaboration-Practice
+git checkout -b ramiller
+git status
+vim Group_File.txt
+vim ramiller_commands.txt
+git add ramiller_commands.txt
+git commit -am "Added personal info to group file"
+git push --set-upstream origin ramiller
+git status
