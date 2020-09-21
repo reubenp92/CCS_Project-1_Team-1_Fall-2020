@@ -3,6 +3,7 @@ cd GitHub-Collaboration-Practice
 git checkout -b jmsanders55
 vim Group_File.txt
 vim jmsanders.txt
+git add Group_File.txt
 git add jmsanders.txt
 git commit -m “updated with project info”
-git push git push --set-upstream origin jmsanders55
+git push --set-upstream origin jmsanders55
